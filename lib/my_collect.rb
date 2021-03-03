@@ -1,4 +1,5 @@
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+languages = ["ruby", "javascript", "python", "objective-c"]
 
 def my_collect(array)
     i = 0
@@ -10,6 +11,6 @@ def my_collect(array)
     emt_array
   end
 
-# my_collect(array) do |student|
-#     student.split(" ").first
 
+#puts my_collect(students) {|name| name}
+#puts my_collect(languages) {|name| name}
